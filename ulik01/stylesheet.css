@@ -1,0 +1,58 @@
+.html, body{
+	font-size: 100%;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color:#333
+}
+
+*, *::before, *::after{
+	box-sizing: inherit;
+}
+
+
+.header{
+	color: blue;
+	padding: 10px 30px;
+	background-color: silver;
+}
+
+.headerRight{
+
+	padding: 5px;
+}
+.headerRight:hover{
+	background-color: white;
+	
+}
+.headerRight span{
+		display: block;
+		width: 26px;
+		height: 2px; 
+		background-color: red;
+		margin-bottom: 3px;
+		margin-top: 3px;
+}
+
+.headerLeft{
+	text-align: center;
+	line-height: 26px;
+	height: 26px;
+}
+
+
+.flex{
+	display: flex;
+
+}
+
+.flex-jc-sb{
+	justify-content: space-between;
+}
+
+.flex-jc-c{
+	justify-content: center;
+}
+.flex-al-c{
+	align-items: center;
+}
