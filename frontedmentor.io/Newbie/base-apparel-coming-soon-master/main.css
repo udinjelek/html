@@ -79,13 +79,25 @@ img{
 	margin-top: 2em;
 }
 
-input{
-	width: 100%;
+.inputNormal{
+	width: 82%;
+	height: 100%;
+	margin-left: 1em;
+	background-color:inherit;
+	border-style: none;	
+}
+
+.inputError{
+	width: 82%;
 	height: 100%;
 	margin-left: 1em;
 	background-color:inherit;
 	border-style: none;
-
+	background-image: url("base-apparel-coming-soon-master/images/icon-error.svg");
+	background-repeat: no-repeat;
+	background-position-x:right;
+	background-position-y: center;
+	
 }
 
 .iconicTitle{
