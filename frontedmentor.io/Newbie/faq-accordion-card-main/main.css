@@ -1,0 +1,48 @@
+*{
+	box-sizing: border-box;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+html {
+	height: 100%;
+}
+
+body{
+	margin:0;
+	padding: 0;
+	background:blueviolet;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.containerMain{
+    display: flex;
+    justify-content:space-between;
+
+   
+    background-color: aqua;
+    min-height: 600px;
+}
+
+.containerPic{
+   position: relative;
+   top: 100px;
+   left: -10%;
+   
+}
+.containerText{
+    margin: 50px;
+   
+}
+.question{
+
+}
+
+.rightPost{
+   
+    width: 450px;
+}
